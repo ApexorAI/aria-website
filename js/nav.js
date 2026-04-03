@@ -24,7 +24,8 @@
             var pageMatch = l.href.split('#')[0] === path;
             return '<a href="' + l.href + '" class="nav-link' + (pageMatch ? ' active' : '') + '" role="menuitem">' + l.label + '</a>';
           }).join('') +
-          '<a href="https://app.aria.com.au/login" class="btn-primary" style="padding:8px 18px;font-size:14px;" aria-label="Sign in to Aria">Sign in →</a>' +
+          '<a href="quote.html" class="btn-primary" style="padding:8px 18px;font-size:14px;background:var(--teal);border-color:var(--teal);" aria-label="Get a quote">Get a quote</a>' +
+          '<a href="https://app.aria.com.au/login" class="nav-link" style="font-size:14px;" aria-label="Sign in to Aria">Sign in →</a>' +
         '</div>' +
         '<button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-mobile">' +
           '<span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>' +
@@ -37,7 +38,8 @@
         links.map(function(l) {
           return '<a href="' + l.href + '" class="nav-mobile-link">' + l.label + '</a>';
         }).join('') +
-        '<a href="https://app.aria.com.au/login" class="btn-primary btn-lg" style="margin-top:16px;display:inline-block;" aria-label="Sign in to Aria">Sign in →</a>' +
+        '<a href="quote.html" class="btn-primary btn-lg" style="margin-top:16px;display:inline-block;" aria-label="Get a quote">Get a quote</a>' +
+        '<a href="https://app.aria.com.au/login" class="btn-secondary btn-lg" style="margin-top:12px;display:inline-block;" aria-label="Sign in to Aria">Sign in →</a>' +
       '</nav>' +
     '</div>';
 
