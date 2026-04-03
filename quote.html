@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Get Your Aria Quote | Aria</title>
-  <meta name="description" content="Get a personalised Aria quote for your business. Fill out the form and we'll call you within 24 hours with a tailored recommendation.">
+  <meta name="description" content="Get a personalised Aria quote for your business. Fill out the form and we'll be in touch with a tailored recommendation.">
   <meta property="og:title" content="Get Your Aria Quote | Aria">
   <meta property="og:description" content="Support your team with personalised and fast AI support. Get a quote today.">
   <meta property="og:type" content="website">
@@ -52,27 +52,6 @@
           </div>
 
           <div class="form-group">
-            <label class="form-label" for="q-business">Business name <span style="color:var(--teal);">*</span></label>
-            <input type="text" id="q-business" name="business_name" class="form-input" placeholder="Your business name" required autocomplete="organization">
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="q-industry">Industry <span style="color:var(--teal);">*</span></label>
-            <select id="q-industry" name="industry" class="form-input" required style="appearance:none;-webkit-appearance:none;background-image:url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path fill=\"%23888\" d=\"M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z\"/></svg>');background-repeat:no-repeat;background-position:right 12px center;background-size:20px;cursor:pointer;">
-              <option value="">Select your industry...</option>
-              <option value="Trades &amp; Construction">Trades &amp; Construction</option>
-              <option value="Hair &amp; Beauty">Hair &amp; Beauty</option>
-              <option value="Medical &amp; Allied Health">Medical &amp; Allied Health</option>
-              <option value="Fitness &amp; Wellness">Fitness &amp; Wellness</option>
-              <option value="Automotive">Automotive</option>
-              <option value="Hospitality">Hospitality</option>
-              <option value="Real Estate">Real Estate</option>
-              <option value="Professional Services">Professional Services</option>
-              <option value="Other">Other</option>
-            </select>
-          </div>
-
-          <div class="form-group">
             <label class="form-label" for="q-phone">Phone number <span style="color:var(--teal);">*</span></label>
             <input type="tel" id="q-phone" name="phone" class="form-input" placeholder="e.g. 0412 345 678" required autocomplete="tel">
           </div>
@@ -83,33 +62,8 @@
           </div>
 
           <div class="form-group">
-            <label class="form-label" for="q-staff">How many staff do you have? <span style="color:var(--teal);">*</span></label>
-            <select id="q-staff" name="staff_count" class="form-input" required style="appearance:none;-webkit-appearance:none;background-image:url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path fill=\"%23888\" d=\"M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z\"/></svg>');background-repeat:no-repeat;background-position:right 12px center;background-size:20px;cursor:pointer;">
-              <option value="">Select team size...</option>
-              <option value="Just me">Just me</option>
-              <option value="2-5">2–5</option>
-              <option value="6-10">6–10</option>
-              <option value="10-20">10–20</option>
-              <option value="20+">20+</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="q-challenge">What is your biggest challenge? <span style="color:var(--teal);">*</span></label>
-            <select id="q-challenge" name="challenge" class="form-input" required style="appearance:none;-webkit-appearance:none;background-image:url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"><path fill=\"%23888\" d=\"M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z\"/></svg>');background-repeat:no-repeat;background-position:right 12px center;background-size:20px;cursor:pointer;">
-              <option value="">Select your biggest challenge...</option>
-              <option value="Missing calls after hours">Missing calls after hours</option>
-              <option value="Not following up leads">Not following up leads</option>
-              <option value="Too much admin">Too much admin</option>
-              <option value="Managing staff">Managing staff</option>
-              <option value="Bookkeeping and invoices">Bookkeeping and invoices</option>
-              <option value="All of the above">All of the above</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="q-info">Any additional information <span style="color:var(--muted);font-weight:400;">(optional)</span></label>
-            <textarea id="q-info" name="additional_info" class="form-textarea" placeholder="Anything else you'd like us to know about your business..." rows="4"></textarea>
+            <label class="form-label" for="q-field">Field of work <span style="color:var(--teal);">*</span></label>
+            <input type="text" id="q-field" name="field_of_work" class="form-input" placeholder="e.g. Plumbing, Hair salon, Medical clinic..." required>
           </div>
 
           <div id="quote-error-inline" style="display:none;background:rgba(220,38,38,0.08);border:1px solid rgba(220,38,38,0.3);border-radius:10px;padding:14px 16px;margin-bottom:16px;">
@@ -119,9 +73,6 @@
           <button type="submit" class="btn-primary btn-lg" style="width:100%;text-align:center;" id="quote-submit-btn">
             Get my personalised quote
           </button>
-          <p style="color:var(--muted);font-size:13px;text-align:center;margin-top:16px;line-height:1.6;">
-            We will call you within 24 hours with a personalised recommendation.
-          </p>
 
         </form>
       </div>
@@ -132,7 +83,7 @@
           <div style="width:72px;height:72px;border-radius:50%;background:rgba(13,148,136,0.12);border:2px solid var(--teal);display:flex;align-items:center;justify-content:center;margin:0 auto 24px;font-size:32px;" aria-hidden="true">✓</div>
           <h2 id="success-heading" style="font-size:clamp(24px,3.5vw,36px);font-weight:900;letter-spacing:-0.03em;margin-bottom:16px;">Thanks.</h2>
           <p style="color:var(--muted);font-size:17px;line-height:1.6;max-width:440px;margin:0 auto 20px;">
-            We will call you within 24 hours with your personalised Aria quote.
+            We will be in touch.
           </p>
           <p style="color:var(--muted);font-size:15px;font-style:italic;">— Cayde, Founder of Aria</p>
         </div>
@@ -174,39 +125,27 @@
   form.addEventListener('submit', function(e) {
     e.preventDefault();
 
-    // Clear inline error
     inlineError.style.display = 'none';
 
     var name = document.getElementById('q-name').value.trim();
-    var business = document.getElementById('q-business').value.trim();
-    var industry = document.getElementById('q-industry').value;
     var phone = document.getElementById('q-phone').value.trim();
     var email = document.getElementById('q-email').value.trim();
-    var staff = document.getElementById('q-staff').value;
-    var challenge = document.getElementById('q-challenge').value;
-    var extra = document.getElementById('q-info').value.trim();
+    var field = document.getElementById('q-field').value.trim();
 
-    // Basic validation
-    if (!name || !business || !industry || !phone || !email || !staff || !challenge) {
+    if (!name || !phone || !email || !field) {
       inlineErrorMsg.textContent = 'Please fill in all required fields.';
       inlineError.style.display = 'block';
       inlineError.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       return;
     }
 
-    // Build interest string
-    var interest = 'Industry: ' + industry + ' | Challenge: ' + challenge;
-    if (extra) {
-      interest += ' | Notes: ' + extra;
-    }
-
     var payload = {
       name: name,
       email: email,
       phone: phone,
-      interest: interest,
-      business_name: business,
-      staff_count: staff
+      interest: field,
+      business_name: '',
+      staff_count: ''
     };
 
     submitBtn.disabled = true;
@@ -222,14 +161,12 @@
       return res.json();
     })
     .then(function() {
-      // Show success
       successHeading.textContent = 'Thanks ' + name.split(' ')[0] + '.';
       formWrap.style.display = 'none';
       successEl.style.display = 'block';
       successEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
     })
     .catch(function() {
-      // Show fatal error
       formWrap.style.display = 'none';
       fatalErrorEl.style.display = 'block';
       fatalErrorEl.scrollIntoView({ behavior: 'smooth', block: 'start' });

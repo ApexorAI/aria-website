@@ -8,7 +8,7 @@
             '<p class="footer-col-title">Product</p>' +
             '<a href="index.html#how-it-works">How it works</a>' +
             '<a href="workforce.html">AI Workforce</a>' +
-            '<a href="pricing.html">Pricing</a>' +
+            '<a href="quote.html">Get a quote</a>' +
             '<a href="jobs.html">Jobs we replace</a>' +
             '<a href="index.html#demo">Demo</a>' +
           '</div>' +

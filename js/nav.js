@@ -2,7 +2,6 @@
   var links = [
     { label: 'How it works', href: 'index.html#how-it-works' },
     { label: 'AI Workforce', href: 'workforce.html' },
-    { label: 'Pricing', href: 'pricing.html' },
     { label: 'Jobs we replace', href: 'jobs.html' },
     { label: 'About', href: 'about.html' },
     { label: 'Foundation', href: 'foundation.html' },
